@@ -8,11 +8,13 @@ import CheckPrime from './components/CheckPrime.jsx';
 import CheckPalimdrome from './Components/Palimdrome.jsx';
 import LeapYear from './Components/LeapYear.jsx';
 import FullPiramid from './Components/FullPiramid.jsx';
+import MyNavbar from './assets/Header/MyNavbar.jsx';
 
 function App() {
   const [name, setName] = useState('shuvadeep');
   return (
-      <>
+    <>
+      <MyNavbar/>
         {/* <FuncComponent/>
         <ClassComponent/> 
         
