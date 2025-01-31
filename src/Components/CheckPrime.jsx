@@ -44,7 +44,7 @@ export default function CheckPrime(){
         </div>
         {
             showResult && (
-                <b> {inpuVal} is { isPrime ? 'Prime number' : 'Not prime number' } </b>
+                <b> {isPrime} is { isPrime ? 'Prime number' : 'Not prime number' } </b>
             )
         }
         </>
