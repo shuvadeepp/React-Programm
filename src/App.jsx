@@ -17,6 +17,10 @@ import ReverseString from './Components/ReverseString.jsx';
 import FullPiramid from './Components/FullPiramid.jsx'; 
 import MejorityElement from './Components/MejorityElement.jsx'; 
 import SinglePyramid from './Components/SinglePyramid.jsx';   
+import Customhook from './Components/Customhook.jsx';   
+import SendForm from './Components/SendForm.jsx';   
+import Counter from './Components/CounterWithMemo.jsx';   
+import CounterSimple from './Components/CounterSimple.jsx';   
 
 
 function App() {
@@ -52,6 +56,10 @@ function App() {
             <Route path="/Fullpiramid" element={<FullPiramid />} />
             <Route path="/MejorityElement" element={<MejorityElement />} />
             <Route path="/SinglePyramid" element={<SinglePyramid />} /> 
+            <Route path="/customhook" element={<Customhook />} /> 
+            <Route path="/sendform" element={<SendForm />} /> 
+            <Route path="/Counter" element={<Counter />} /> 
+            <Route path="/CounterSimple" element={<CounterSimple />} /> 
           </Routes> 
         </BrowserRouter>
       </>

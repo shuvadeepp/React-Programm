@@ -43,6 +43,18 @@ export default function Dashboard(){
                     <li>
                         <Link className="dropdown-item" aria-current="page" to="/SinglePyramid"> Single Pyramid </Link>
                     </li>
+                    <li>
+                        <Link className="dropdown-item" aria-current="page" to="/customhook"> Custom Hook </Link>
+                    </li>
+                    <li>
+                        <Link className="dropdown-item" aria-current="page" to="/sendform"> Send Form </Link>
+                    </li>
+                    <li>
+                        <Link className="dropdown-item" aria-current="page" to="/Counter"> Counter using Memo </Link>
+                    </li>
+                    <li>
+                        <Link className="dropdown-item" aria-current="page" to="/CounterSimple"> Counter without using Memo </Link>
+                    </li>
                 </ul>
                 </div>
         </>
